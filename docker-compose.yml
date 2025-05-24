@@ -7,6 +7,8 @@ services:
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
+      POSTGRES_DB: kry_admin_development
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
   web:
     build: .
@@ -16,4 +18,4 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgres://postgres:password@db:5432/dna_admin_development
+      DATABASE_URL: postgres://postgres:password@db:5432/kry_admin_development

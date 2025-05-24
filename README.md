@@ -63,9 +63,9 @@ sudo rm -rf tmp/db
 The system uses 3 spree extensions
 
 * `spree_reffiliate` (Thanks @Gaurav2728)
-  [github](https://github.com/Gaurav2728/spree_reffiliate)
-* `spree_loyalty_points` (Thanks @Gaurav2728)
-  [github](https://github.com/Gaurav2728/spree_loyalty_points)
+  [github](https://github.com/1instinct/spree_reffiliate)
+<!-- * `spree_loyalty_points` (Thanks @Gaurav2728)
+  [github](https://github.com/1instinct/spree_loyalty_points) -->
 * `spree_static_content`
   [github](https://github.com/spree-contrib/spree_static_content)
 * `spree_digital`
@@ -82,6 +82,8 @@ page for each project.  This only needs to be done once after spree is installed
 `./tools/docker-scripts.sh reload_db`
 
 ## Swagger UI
+
+
 
 ## Scripts
 
