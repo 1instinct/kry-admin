@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.3'
@@ -60,6 +60,10 @@ gem 'sprockets-helpers', '~> 1.2.1'
 gem 'rest-client'
 # Tool to create APi and it's documentation
 gem 'swagger-blocks'
+
+gem "concurrent-ruby", "~> 1.3"
+
+gem 'sassc-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
